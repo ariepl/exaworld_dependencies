@@ -1,10 +1,10 @@
-pub const MAIN_SEPARATOR: &str = /*             */ "{;}";
-pub const LOBBY_SEPARATOR: &str = /*            */ "{;;}";
-pub const MOODLE_OBJECT_SEPARATOR: &str = /*    */ "{;;;}";
-pub const PLAYER_SEPARATOR: &str = /*           */ "{;;;;}";
-pub const WORLD_SEPARATOR: &str = /*            */ "{;;;;;}";
-pub const COORDS_SEPARATOR: &str = /*           */ "{;;;;;;}";
-pub const LOBBY_PLAYERS_IDS_SEPARATOR: &str = /**/ "{;;;;;;;}";
+pub const MAIN_SEPARATOR: &str = /*                 */ "{;}";
+pub const LOBBY_SEPARATOR: &str = /*                */ "{;;}";
+pub const MOODLE_OBJECT_SEPARATOR: &str = /*        */ "{;;;}";
+pub const PLAYER_SEPARATOR: &str = /*               */ "{;;;;}";
+pub const WORLD_SEPARATOR: &str = /*                */ "{;;;;;}";
+pub const COORDS_SEPARATOR: &str = /*               */ "{;;;;;;}";
+pub const LOBBY_PLAYER_MODELS_SEPARATOR: &str = /*  */ "{;;;;;;;}";
 
 pub const SEPARATORS: [&str; 7] = [
     MAIN_SEPARATOR,
@@ -13,5 +13,5 @@ pub const SEPARATORS: [&str; 7] = [
     PLAYER_SEPARATOR,
     WORLD_SEPARATOR,
     COORDS_SEPARATOR,
-    LOBBY_PLAYERS_IDS_SEPARATOR,
+    LOBBY_PLAYER_MODELS_SEPARATOR,
 ];
